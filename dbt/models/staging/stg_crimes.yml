@@ -1,0 +1,10 @@
+version: 2
+models:
+  - name: stg_crimes
+    columns:
+      - name: id
+        tests: [not_null, unique]
+      - name: occurrence_ts
+        tests: [not_null]
+      - name: primary_type
+        tests: [not_null]

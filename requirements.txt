@@ -1,0 +1,9 @@
+pandas==2.2.2
+requests==2.32.3
+psycopg[binary]==3.2.1
+sqlalchemy==2.0.32
+prefect==2.20.10
+dbt-core==1.8.6
+dbt-postgres==1.8.1
+streamlit==1.37.1
+plotly==5.23.0

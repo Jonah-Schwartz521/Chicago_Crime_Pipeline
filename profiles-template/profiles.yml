@@ -1,0 +1,11 @@
+chicago_crime:
+  outputs:
+    dev:
+      type: postgres
+      host: {{ env_var('PGHOST') }}
+      user: {{ env_var('PGUSER') }}
+      password: {{ env_var('PGPASSWORD') }}
+      port: {{ env_var('PGPORT') | as_number }}
+      dbname: {{ env_var('PGDATABASE') }}
+      schema: public
+  target: dev
