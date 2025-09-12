@@ -1,21 +1,28 @@
-.env
+# Python
 __pycache__/
 *.pyc
+
+# Environments
+.venv/
+.env
+.env.*
+
+# OS
+.DS_Store
+
+# dbt
 dbt/target/
 dbt/logs/
 dbt/packages/
-dbt/profiles.yml
-.streamlit/
-.DS_Store
-.env
-.venv/
-__pycache__/
-.DS_Store
-.env
-.venv/
-__pycache__/
-.DS_Store
-.dbt/target/
+dbt/profiles.yml  # keep local, not tracked
+.dbt/
 
+# Streamlit
+.streamlit/
+
+# Logs & temp
 logs/
 *.bak
+
+# Archive 
+archive/
