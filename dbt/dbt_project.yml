@@ -1,18 +1,26 @@
-name: 'chicago_crime_dbt'
-version: '1.0.0'
+name: chicago_crime_dbt
+version: 1.0.0
 config-version: 2
+
 profile: chicago_crime_dbt
-model-paths: ['models']
-seed-paths: ['seeds']
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
 
 models:
   chicago_crime_dbt:
     +materialized: view
+
     staging:
-      +schema: stg
+      +materialized: view
+
     dimensions:
-      +schema: core
+      +materialized: view
+
     facts:
-      +schema: core
+      +materialized: table
+
     marts:
-      +schema: marts
+      +materialized: table
