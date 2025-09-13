@@ -1,0 +1,21 @@
+version: 2
+models:
+  - name: stg_chicago_crimes
+    description: "Unpack raw JSON into typed columns from raw.chicago_crimes"
+    columns:
+      - name: id
+        tests: [not_null, unique]
+      - name: date
+        tests: [not_null]
+      - name: primary_type
+        tests: [not_null]
+      - name: arrest
+        tests:
+          - accepted_values:
+              values: [true, false]
+              quote: false
+      - name: domestic
+        tests:
+          - accepted_values:
+              values: [true, false]
+              quote: false
