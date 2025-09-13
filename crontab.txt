@@ -1,0 +1,2 @@
+# Chicago Crime Pipeline – keep data fresh
+0 */6 * * * /Volumes/easystore/Projects/chicago-crime-pipeline/scripts/ingest_cron.sh
