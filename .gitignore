@@ -26,3 +26,7 @@ logs/
 
 # Archive 
 archive/
+
+artifacts/*.joblib
+.cache/
+__pycache__/
