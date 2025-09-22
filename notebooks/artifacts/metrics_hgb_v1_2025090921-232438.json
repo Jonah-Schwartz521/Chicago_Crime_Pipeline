@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025090921-232438",
+  "model": "HGB + FE v1",
+  "test_pr_auc": 0.6569381509218256,
+  "test_roc_auc": 0.8878424246896272,
+  "threshold_tuned": 0.6953415078096913,
+  "confusion_tuned": [
+    [
+      1698,
+      97
+    ],
+    [
+      120,
+      182
+    ]
+  ],
+  "class_report_tuned": {
+    "0": {
+      "precision": 0.933993399339934,
+      "recall": 0.9459610027855153,
+      "f1-score": 0.9399391087738721,
+      "support": 1795.0
+    },
+    "1": {
+      "precision": 0.6523297491039427,
+      "recall": 0.6026490066225165,
+      "f1-score": 0.6265060240963856,
+      "support": 302.0
+    },
+    "accuracy": 0.8965188364329996,
+    "macro avg": {
+      "precision": 0.7931615742219383,
+      "recall": 0.7743050047040159,
+      "f1-score": 0.7832225664351289,
+      "support": 2097.0
+    },
+    "weighted avg": {
+      "precision": 0.8934295355481985,
+      "recall": 0.8965188364329996,
+      "f1-score": 0.8947999616243247,
+      "support": 2097.0
+    }
+  },
+  "best_params": {
+    "clf__l2_regularization": 0.0020059560245279666,
+    "clf__learning_rate": 0.18679147494991152,
+    "clf__max_depth": 5,
+    "clf__max_iter": 87,
+    "clf__max_leaf_nodes": 44,
+    "clf__min_samples_leaf": 80
+  }
+}
