@@ -1,0 +1,7 @@
+{
+  "timestamp": "20250922-234027",
+  "approach": "STACK RF+HGB on geo/season features",
+  "test_pr_auc": 0.660099007312621,
+  "test_roc_auc": 0.881016989798742,
+  "best_threshold": 0.7695998051555637
+}

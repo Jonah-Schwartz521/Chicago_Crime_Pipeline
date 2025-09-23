@@ -1,0 +1,15 @@
+{
+  "timestamp": "20250922-234027",
+  "approach": "HGB + geo/season expansion",
+  "test_pr_auc": 0.6576718384675736,
+  "test_roc_auc": 0.8891530926598904,
+  "best_threshold": 0.7219124506924276,
+  "best_params": {
+    "clf__l2_regularization": 0.07500295933641415,
+    "clf__learning_rate": 0.039088721491346144,
+    "clf__max_depth": 7,
+    "clf__max_iter": 387,
+    "clf__max_leaf_nodes": 38,
+    "clf__min_samples_leaf": 101
+  }
+}
