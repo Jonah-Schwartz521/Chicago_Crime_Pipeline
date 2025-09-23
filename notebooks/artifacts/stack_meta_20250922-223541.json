@@ -1,0 +1,7 @@
+{
+  "timestamp": "20250922-223541",
+  "approach": "stack RF+HGB (logistic meta)",
+  "test_pr_auc": 0.6629880272596987,
+  "test_roc_auc": 0.8825942186721761,
+  "best_threshold": 0.8223139384263192
+}
