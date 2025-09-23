@@ -1,0 +1,16 @@
+{
+  "timestamp": "20250922-225507",
+  "approach": "LightGBM (global)",
+  "test_pr_auc": 0.6301771124764809,
+  "test_roc_auc": 0.8800715748307476,
+  "best_threshold": 0.4162996962709903,
+  "best_params": {
+    "clf__subsample": 1.0,
+    "clf__reg_lambda": 0.5,
+    "clf__num_leaves": 31,
+    "clf__n_estimators": 500,
+    "clf__min_child_samples": 120,
+    "clf__learning_rate": 0.08,
+    "clf__colsample_bytree": 0.8
+  }
+}
