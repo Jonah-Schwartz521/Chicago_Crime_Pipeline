@@ -1,0 +1,8 @@
+{
+  "timestamp": "20250922-225507",
+  "approach": "Calibrated STACK (RF+HGB, isotonic)",
+  "test_pr_auc": 0.6523309284678784,
+  "test_roc_auc": 0.8818544891069747,
+  "best_threshold": 0.40665124349334875,
+  "uncalibrated_pr_auc": 0.6629880272596987
+}
